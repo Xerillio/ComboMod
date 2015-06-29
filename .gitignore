@@ -1,6 +1,7 @@
 $ cat .gitignore
 /*
 !.gitignore
+!readme.md
 !/src
 !build.gradle
 !*.project
