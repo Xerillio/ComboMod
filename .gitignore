@@ -1,0 +1,11 @@
+$ cat .gitignore
+/*
+!.gitignore
+!/src
+!build.gradle
+!*.project
+!/gradle
+!gradlew
+!gradlew.bat
+!setup_workspace.bat
+!setup_eclipse.bat
