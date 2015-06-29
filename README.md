@@ -11,9 +11,9 @@ This is how to set it up if you are working with eclipse. Steps 1 to 4 should be
 ## Project Information ##
 <a name="project-info"></a>
 
-**Current Minecraft version:**
+**Current Minecraft version:**<br>
 1.8
 
-**Current Minecraft Forge version:**
-11.14.3.1486
+**Current Minecraft Forge version:**<br>
+11.14.3.1486<br>
 [Click here](http://files.minecraftforge.net/) to go to the download section of Minecraft Forge.
