@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "cb:items/test_item"
+        "layer0": "cb:items/item_teleporter"
     },
     "display": {
         "thirdperson": {

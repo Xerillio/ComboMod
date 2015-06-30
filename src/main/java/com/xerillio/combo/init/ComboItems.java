@@ -1,6 +1,7 @@
 package com.xerillio.combo.init;
 
 import com.xerillio.combo.Reference;
+import com.xerillio.combo.items.ItemTeleporter;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -9,21 +10,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ComboItems {
 	
-	public static Item test_item;
+	public static ItemTeleporter item_teleporter;
 	
 	public static void init()
 	{
-		test_item = new Item().setUnlocalizedName("test_item");
+		item_teleporter = new ItemTeleporter();
 	}
 	
 	public static void register()
 	{
-		GameRegistry.registerItem(test_item, test_item.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(item_teleporter, item_teleporter.getUnlocalizedName().substring(5));
 	}
 	
 	public static void registerRenders()
 	{
-		registerRender(test_item);
+		registerRender(item_teleporter);
 	}
 	
 	public static void registerRender(Item item)
