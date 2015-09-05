@@ -12,7 +12,7 @@ public class ComboItems {
 	
 	public static ItemTeleporter item_teleporter;
 	
-	public static void init()
+	public static void createItems()
 	{
 		item_teleporter = new ItemTeleporter();
 	}
@@ -29,7 +29,8 @@ public class ComboItems {
 	
 	public static void registerRender(Item item)
 	{
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
+				new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
 
 }

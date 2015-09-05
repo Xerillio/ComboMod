@@ -21,11 +21,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemTeleporter extends Item
 {
 
-	private static final String name = "item_teleporter";
-
 	public ItemTeleporter()
 	{
-		setUnlocalizedName(name);
+		setUnlocalizedName("item_teleporter");
 	}
 
 	@Override
